@@ -27,12 +27,6 @@ class _TasbehTabState extends State<TasbehTab> {
             child: Stack(
               children: [
                 Positioned(
-                    left: mediaquery.width*0.45,
-                    child: Container(
-                        height: mediaquery.height*0.10,
-                        child: Image.asset(settingsProvider.currentTheme==ThemeMode.light?
-                            "assets/images/head_seb7a.png":"assets/images/head_seb7a_Dark.png"))),
-                Positioned(
                   top: 60,
                   left: mediaquery.width*0.19,
                   child: GestureDetector(
